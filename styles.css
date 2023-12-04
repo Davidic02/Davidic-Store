@@ -1,0 +1,213 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+  background-image: url(./images/pexels-jens-mahnke-1153838.jpg) ;
+  background-size: cover;
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #c5bebe;
+
+    
+}
+/*
+@media screen and (max-width:600px) {
+body .burger-nav {
+  margin-bottom: 300px;
+    
+    height: 100px;
+    width: 100px;
+    background: url(images/david.svg) no-repeat  ;
+    margin-top: 20px;
+    margin-left: 80%;
+    position: absolute;
+    background-size: 60px;
+  }
+
+header nav ul{
+  overflow: hidden;
+  height:0;
+}
+
+ nav ul.open{
+  height: auto;
+}
+
+ body  .burger-nav:hover{
+    cursor: pointer;
+  }
+  header nav ul li a
+{
+
+
+
+}
+
+
+  body{
+    color:red;
+    background-color: black;
+  }
+  body .david{
+    justify-content: center;
+  
+
+  }
+body nav{
+
+}
+  
+
+ body nav ul  { 
+
+    
+  display: block;
+    justify-content: center;
+    justify-self: unset;
+    justify-content: ;
+    
+  }
+  body .wrapper{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding: ;
+  }
+  body .one{
+    margin-top: 30vh;
+    text-align: ;
+    margin-left: 0;
+    padding-left: 0%;
+    font-size: large;
+    width: ;
+    height: 70vh;
+  }
+body .two{
+  width: 250px;
+  padding-left: 50px;
+  color: bisque;
+  padding: ;
+}
+
+
+
+  
+} */
+
+
+@media screen and (max-width: 768px ) {
+  nav ul{
+    display:none;
+  }
+
+
+.burger-nav{
+  width: 30px;
+  height:30px;
+  background-color:red;
+  cursor:pointer;
+}
+
+nav ul .open{
+  display: flex;
+  flex-direction: column;
+}
+.burger-nav .active{
+  background-color: #0471a3;
+}
+
+.wrapper{
+  text-align: center;
+  margin: auto;
+}
+
+
+
+} */
+
+
+
+
+
+.david{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.wrapper{ 
+padding-top: 20px;
+  padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+nav{ padding-left: 5%;
+  padding-right: 5%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  color:#615a5a ;
+  background-color:bisque;
+  font-weight: bold;
+  
+
+
+}
+
+nav ul {
+  display: flex;
+  
+}
+
+nav ul li {margin-top: 20px;
+  display: flex;
+  margin-left: 2rem
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #615a5a;
+}
+
+nav ul li a:hover{
+  translate:  ;
+}
+
+
+.motherfucker {
+  transition: all .5s;
+}
+
+.motherfucker:hover {
+  color: #0471a3;
+  transform: translateY(2px);
+}
+.one{ font-weight: bolder;
+  text-align: left;
+  margin-top: 20vh;
+  text-align: justify;
+  font-size: 2rem;
+  color: white;
+}
+
+.two{
+  background:rgb(177, 147, 147) ;
+  border-radius: 27px;
+  padding-left: 50px;
+  width: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  padding-right: 5px;
+
+}
+
+.five{
+  font-size: 1rem;
+}

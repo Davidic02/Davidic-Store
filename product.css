@@ -1,0 +1,187 @@
+
+
+
+
+
+body{
+  background-color:#c5bebe; 
+  
+}
+
+
+
+@media screen and (max-width:600px) {
+
+body img{
+  width: 90%;
+}
+
+body .two { display: block;
+  text-align: center;
+  justify-content: center;
+  margin-left: -9%;
+  padding: auto;
+  
+}
+
+  body .burger-nav {
+    margin-bottom: 300px;
+    display: none;
+    height: 400px;
+    width: 100px;
+    background: url(images/david.svg) no-repeat;
+    margin-top: 20px;
+    margin-left: 80%;
+    position: absolute;
+    background-size: 60px;
+  }
+
+  header nav ul {
+    overflow: hidden;
+    height: ;
+  }
+
+  nav ul.open {
+    height: auto;
+  }
+
+  body .burger-nav:hover {
+    cursor: pointer;
+  }
+
+  header nav ul li a {}
+
+
+  body {
+    color: ;
+    background-color: ;
+  }
+
+  body .david {
+    justify-content: center;
+
+
+  }
+
+  body nav {}
+
+
+  body nav ul {
+
+
+    display: block;
+    justify-content: center;
+    justify-self: unset;
+    
+
+  }}
+
+nav {
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  color: #615a5a;
+  background-color: bisque;
+  font-weight: bold;
+
+}
+nav ul {
+  display: flex;
+
+}
+
+nav ul li {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 2rem
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #615a5a;
+}
+
+
+
+
+.motherfucker {
+  transition: all .5s;
+}
+
+.motherfucker:hover {
+  color: #0471a3;
+  transform: translateY(2px);
+}
+
+
+
+
+.one{
+  font-size: 4rem;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+img{
+width: 50%;
+margin-bottom: 3rem;
+border-radius: 20px;
+border-left: 1px solid #615a5a;
+}
+
+.two{
+  display:flex;
+  
+}
+
+ul li{
+  list-style-type: none;
+}
+.three{
+  height: 100%;
+}
+.four a{
+color: white;
+padding: 5px;
+padding-left: 10px;
+
+border-radius: 10px;
+
+text-decoration: none;
+
+}
+
+.five{
+  font-size: 3rem;
+}
+.four{ text-align: center;
+  padding: 20px;
+  width: 150px;
+  margin-left: 50px;
+  background-color: chocolate;
+
+  border-radius: 20px;
+  padding-top: 10px;
+  height: 20px;
+}
+.arrow{
+  height: 40px;
+  justify-content: left;
+  margin-left: -20%;
+  margin-top: 20px;
+}
+
+.div{
+  display: flex;
+}
+
+.div:hover{
+  cursor: pointer;
+  width: 70%;
+}
